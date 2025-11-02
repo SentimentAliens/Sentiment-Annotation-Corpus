@@ -1,1 +1,57 @@
-# Sentiment-Annotation-Corpus
+# Sentiment Annotated Corpus
+
+This repository contains a manually annotated sentiment corpus of Slovene Reddit posts and comments and accompanying annotation guidelines. The corpus was annotated according to a consistent 5-class sentiment scheme, based on comprehension of sentence meaning and subsequent sentiment judgment.
+
+---
+
+## 📘 Contents
+
+- **Sentiment Annotated Corpus.xlsx** — The dataset containing the annotated sentences and their corresponding sentiment labels.  
+- **Sentiment Annotation Guideline.pdf** — The official documentation describing annotation procedures, decision rules, and label definitions.
+
+---
+
+## 🧩 Overview
+
+The sentiment annotation process consists of two steps:
+
+1. **Comprehension** — Understanding the content and communicative intent of the sentence.  
+2. **Sentiment Judgment** — Assigning one of five sentiment labels based on the perceived sentiment orientation and pragmatic tone.
+
+---
+
+## 🎯 Sentiment Label Scheme
+
+Each sentence is assigned **one of five sentiment categories**:
+
+| Label | Class Name | Description |
+|--------|-------------|-------------|
+| 1 | **Negative** | Expresses a negative attitude, criticism, complaint, or disapproval. |
+| 2 | **Neutral** | Reports objective facts or information with no evaluative stance. |
+| 3 | **Positive** | Expresses approval, satisfaction, or positive emotion. |
+| 4 | **Mixed** | Contains multiple or conflicting sentiments (e.g., both positive and negative). |
+| 5 | **Sarcastic** | Uses positive or neutral wording with an opposite (typically negative) implied meaning; sentiment reversal is evident from context or tone. |
+
+---
+
+## 💡 Annotation Principles
+
+- **Positive**: Label statements clearly expressing approval, appreciation, or happiness.  
+- **Negative**: Label complaints, discontent, or negative evaluations.  
+- **Neutral**: Assign to factual or descriptive sentences with no sentiment.  
+- **Mixed**: Use when a sentence conveys both positive and negative sentiments or contains multiple clauses with different polarities.  
+- **Sarcastic**: Assign only when irony or sentiment reversal is explicit and contextually clear.
+
+Annotators were instructed to ask themselves:  
+> “What kind of language is the speaker using?”
+
+---
+
+## ⚙️ Intended Use
+
+The corpus can be used for:
+
+- Training or evaluation of **sentiment analysis models**
+- **Corpus-based linguistics** and **discourse studies**
+- Studying **sarcasm detection**, **subjectivity**, and **evaluative language**
+- Benchmarking **NLP tools** for fine-grained sentiment classification
