@@ -47,6 +47,15 @@ Annotators were instructed to ask themselves:
 
 ---
 
+## 🧾 Related Repository
+
+The original text corpus used for sentiment annotation was created and processed in a separate repository:  
+👉 [**Corpus Creation Repository**](https://github.com/SentimentAliens/Corpus-Creation)
+
+That repository provides detailed documentation of the **data collection process**, **preprocessing steps**, and **corpus structure** prior to annotation.
+
+---
+
 ## ⚙️ Intended Use
 
 The corpus can be used for:
