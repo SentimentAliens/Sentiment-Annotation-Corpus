@@ -6,7 +6,7 @@ This repository contains a manually annotated sentiment corpus of Slovene Reddit
 
 ## 📘 Contents
 
-- **Sentiment Annotated Corpus.xlsx** — The dataset containing the annotated sentences and their corresponding sentiment labels.  
+- **Sentiment Annotated Corpus.xlsx** — The dataset containing the 501 annotated sentences and their corresponding sentiment labels from two annotators.  
 - **Sentiment Annotation Guideline.pdf** — The official documentation describing annotation procedures, decision rules, and label definitions.
 
 ---
