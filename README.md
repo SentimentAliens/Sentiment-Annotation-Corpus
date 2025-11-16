@@ -47,6 +47,14 @@ Annotators were instructed to ask themselves:
 
 ---
 
+## 📊 Inter-Annotator Agreement
+
+To assess the reliability of sentiment annotations between the two annotators, we calculated Cohen's kappa coefficient, a widely used statistical measure of inter-rater agreement for categorical data. Unlike simple percent agreement, Cohen's kappa accounts for the possibility that agreement may occur by chance. The Python code is available in cohen_kappa_score.py file.
+
+In our dataset, Cohen's kappa was computed at 0.8970 (89.70%), which indicates an almost perfect level of agreement according to common interpretation guidelines. This high kappa value demonstrates that the annotators were consistent and reliable in applying the sentiment labels, lending confidence to the quality and robustness of the annotated corpus.
+
+---
+
 ## 🧾 Related Repository
 
 The original text corpus used for sentiment annotation was created and processed in a separate repository:  
