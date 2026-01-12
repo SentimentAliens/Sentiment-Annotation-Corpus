@@ -8,6 +8,7 @@ This repository contains a manually annotated sentiment corpus of Slovene Reddit
 
 - **Sentiment Annotated Corpus.xlsx** — The dataset containing the 501 annotated sentences and their corresponding sentiment labels from two annotators.  
 - **Sentiment Annotation Guideline.pdf** — The official documentation describing annotation procedures, decision rules, and label definitions.
+- **divide_into_sentences.py** — A preprocessing script used to segment raw text into individual sentences. The script prepares data for sentence-level sentiment annotation and downstream NLP tasks where sentence granularity is required. The script performs the following operations: reads raw text input (single file or collection of files), splits text into sentences using punctuation-based boundary detection, outputs sentence-segmented text in a format suitable for annotation or further processing.
 
 ---
 
